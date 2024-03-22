@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<title>ODISHA</title>
+</head>
+<link rel="icon" href="india3.webp">
+ <style> body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+</style>
+<style>
+    @keyframes smoothText {
+      0% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+      50% {
+        transform: translateY(-20px);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+    }
+
+    h1{
+      font-size: 70px;
+      font-family: 'Arial', sans-serif;
+      animation: smoothText 2s infinite;
+      margin-top: 30px;
+	color: cyan; 
+    }
+	h2{
+	font-size: 62px;
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	}
+
+p{
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+#right{
+float: right;
+margin-right: 10px;
+}
+
+#left{
+float:left;
+margin-right: 10px;
+}
+.food_names{
+margin-left:10px;
+margin-right:10px;
+display: flex;
+justify-content: space-between;
+color: gold;
+font-size: 50px;
+}
+
+::-webkit-scrollbar{ 
+width: 10px; } 
+::-webkit-scrollbar-track{ 
+background-color: white; 
+} 
+
+::-webkit-scrollbar-track{
+background: black;
+}
+::-webkit-scrollbar-thumb{ 
+background: linear-gradient(to bottom, #fcef64, #fcc44b,#f44c7d);
+border-radius: 10px; 
+} 
+</style>
+
+<body>
+  <div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+  </div>
+    <hr color="gold" size="20px">
+<h1 align="center">Odisha</h1>
+<hr color="gold" size="20px">
+<center><img style="height:500px; width:auto; margin-top:20px;" src="https://indiastatebook.com/wp-content/uploads/2022/08/major-cities-of-Odisha.jpg"></center>
+
+<p>Odisha, state of India. Located in the northeastern part of the country, it is bounded by the states of Jharkhand and West Bengal to the north and northeast, by the Bay of Bengal to the east, and by the states of Andhra Pradesh and Telangana to the south and Chhattisgarh to the west. Before India became independent in 1947, Odisha’s capital was at Cuttack. The present capitol was subsequently built at Bhubaneshwar, in the vicinity of the city’s historic temples in the east-central coastal plains. In late 2011 the state’s name was officially changed from Orissa to Odisha. Area 60,119 square miles (155,707 square km). Pop. (2011) 41,947,358.</p>
+<hr color="purple" size="20px">
+<h2>Bhubaneswar</h2>
+<hr color="purple" size="20px">
+<center><img style="height:400px; width:auto;" src="https://etimg.etb2bimg.com/photo/101281045.cms"></center>
+<p>Bhubaneswar the temple city of India is the capital of Orissa. It is believed that there were about 7000 temples in Ekamra Vana of Bhubaneswar . Reminiscence of the days of yore dating back to the 6th century.Satrughaneswar and laxamaneswar temple to the gigantic Lingaraj temple of the 11th century are available in the old township .Centuries of temple building activity continued well in to the 12th and 13th century in the shape of Anant Basudev temple on the southeast of the Bindu Sarovar Tank.<br>Besides the Khandagiri and udayagiri Caves are rock-cut architechtural beauties of the 1st century B.C. of Jain importance. The zoological paradise of Nandan kanaGardens on the north bank of Kanjia Lake which forms a picturesque Landscape. Modern Bhubaneswar has earned reputation for its IT centre and software parks as well as a model venue for conference and convention.</p>
+<hr color="purple" size="20px">
+
+<h2>Special Food</h2>
+<hr color="purple" size="20px">
+<div>
+<img style="height:400px; width:400px; margin-left: 10px; margin-top:20px;" src="https://www.blissofcooking.com/wp-content/uploads/2021/03/Dahi-Baigana-EOP.jpg?v=1616675464"id="left">
+
+<img style="height:400px; width:400px;margin-top:20px;" src="https://cookspan.com/wp-content/uploads/2018/01/DSC_4231.jpg"id="right">
+<center>
+<img style="height:400px; width:400px;margin-top: 20px;" src="https://firsttimercook.com/wp-content/uploads/2016/09/Dalma.jpg">
+</center>
+</div>
+<div class="food_names">
+<div>Dahi Baigana
+</div>
+<div>Dalma
+</div>
+<div>Khechde 
+</div>
+</div>
+</body>  
+</html>

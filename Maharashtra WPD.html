@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<title>MAHARASHTRA</title>
+</head>
+<link rel="icon" href="india3.webp">
+ <style> body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+</style>
+<style>
+    @keyframes smoothText {
+      0% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+      50% {
+        transform: translateY(-20px);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+    }
+
+    h1{
+      font-size: 70px;
+      font-family: 'Arial', sans-serif;
+      animation: smoothText 2s infinite;
+      margin-top: 30px;
+	color: cyan; 
+    }
+	h2{
+	font-size: 62px;
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	}
+
+p{
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+#right{
+float: right;
+margin-right: 10px;
+}
+
+
+#left{
+float: left;
+margin-right: 10px;
+}
+
+
+#center{
+float:center;
+margin-right: 10px;
+}
+
+.food_names{
+margin-left:10px;
+margin-right:10px;
+display: flex;
+justify-content: space-between;
+color: gold;
+font-size: 50px;
+}
+
+</style>
+
+<body>
+  <div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+  </div>
+    <hr color="gold" size="20px">
+<h1 align="center">Maharashtra</h1>
+<hr color="gold" size="20px">
+<center><img style="height:500px; width:500px; margin-top:20px;" src="https://i.pinimg.com/736x/41/ac/53/41ac53fab7baa1a46d7e96f1de88fa10.jpg"></center>
+
+<p>Maharashtra is one of India's largest commercial and industrial centres, which has led to its being called the gateway of India. Maharashtra is also famous for its culture and beauty.<br>Maharashtra is the 3rd largest and one of the most populated states in India. Bordered by the Arabian Sea and the Western Ghats, it is a favoured destination for travel enthusiasts. Besides its world-famous entertainment industry, the state is also known for its delectable taste palate, rich culture, festivities, etc.</p>
+<hr color="purple" size="20px">
+<h2>Mumbai</h2>
+<hr color="purple" size="20px">
+<center><img style="height:500px; width:600px;" src="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/mumbai-maharashtra.jpg"></center>
+<p>The capital city of Maharashtra has a nickname, “Manhattan of India”. Mumbai is a collection of seven islands. A few important places that must be on your "Mumbai Darshan" list are the Gateway of India, Elephanta Caves, Marine Drive, Markets of Mumbai, Siddhivinayak Temple, beaches of Mumbai, Basilica of Our Lady of the Mount and Fort Bassein.</p>
+<hr color="purple" size="20px">
+
+<h2>Special Food</h2>
+<hr color="purple" size="20px">
+<div>
+<img style="height:300px; width:400px; margin-left: 10px; margin-top:20px;" src="https://static.toiimg.com/photo/52416693.cms"id="left">
+<img style="height:300px; width:400px;margin-top:20px;" src="https://static.toiimg.com/thumb/80920657.cms?imgsize=251331&width=800&height=800"id="right">
+<center>
+<img style="height:300px; width:400px;margin-top:20px;"src="https://www.emeraldbakery.in/cdn/shop/files/IMG_5864.jpg?v=1696442094&width=1080" ></center>
+</div>
+
+<div class="food_names">
+<div>Pav Bhaji
+</div>
+<div>Misal Pav
+</div>
+<div>Vada Pav
+
+</div>
+</div>
+</body>  
+</html>
+
+

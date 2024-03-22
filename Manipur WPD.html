@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<title>MANIPUR</title>
+</head>
+<link rel="icon" href="india3.webp">
+ <style> body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+</style>
+<style>
+@keyframes smoothText {
+      0% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+      50% {
+        transform: translateY(-20px);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+    }
+
+    h1{
+      font-size: 70px;
+      font-family: 'Arial', sans-serif;
+      animation: smoothText 2s infinite;
+      margin-top: 30px;
+	color: cyan; 
+	text-align: center;
+    }
+	h2{
+	font-size: 62px;
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+}	
+p{
+font-size: 35px;
+margin-left: 10px;
+}
+
+.food{
+display: flex;
+justify-content: space-between;
+margin-right: 10px;
+margin-left:10px;
+color: gold;
+font-size:40px;
+}
+</style>
+
+<body>
+  <div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+  </div>
+<hr color="gold" size="20px">
+<h1>Manipur</h1>
+<hr color="gold" size="20px">
+<p>Manipur, state of India, located in the northeastern part of the country. It is bordered by the Indian states of Nagaland to the north, Assam to the west, and Mizoram to the southwest and by Myanmar (Burma) to the south and east. Like other northeastern states, it is largely isolated from the rest of India. The name Manipur means “land of gems.”</p>
+
+<hr color="purple" size="20px">
+<h2>Imphal</h2>
+<hr color="purple" size="20px">
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Imphal_At_Dusk.jpg/800px-Imphal_At_Dusk.jpg" height="500" width="650px"></center>
+<p>Imphal, city, capital of Manipur state, northeastern India. It lies in the central part of the state in the Manipur River valley at an elevation of 2,500 feet (760 metres).<br>Imphal was the seat of the kings of Manipur before the region fell under British rule. In 1944 it was the site of a significant tactical victory for the Anglo-Indian forces over the Japanese on the Burmese front of World War II.
+</p>
+
+<hr color="purple" size="20px">
+<h2>Special Food</h2>
+<hr color="purple" size="20px">
+<div class="food">
+<div>
+<img src="https://www.holidify.com/blog/wp-content/uploads/2016/11/4389731194_7dc379650d_o-e1479275807981.jpg"height="300px"width="350px">
+</div>
+<div>
+<img style="margin-left:10px;"src="https://www.licious.in/blog/wp-content/uploads/2021/12/Licious-Blog-Shoot11700-scaled.jpg"height="300px"width="350px">
+</div>
+<div>
+<img style="margin-left:10px;"src="https://www.mycurryveda.com/wp-content/uploads/2020/03/CK5.jpg"height="300px"width="350px">
+</div>
+</div>
+<div class="food">
+<div>Chamthong</div>
+<div>Nga-Thongba</div>
+<div>Chak-hao Kheer</div>
+</div>
+</body>
+</html>
